@@ -10,6 +10,7 @@ namespace DemoL.Exemple2.Avant
     {
         public virtual void Creation(string text)
         {
+            //Save to Commentaire
             Console.WriteLine("Commentaire : " + text);
         }
 

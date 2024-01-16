@@ -7,6 +7,8 @@ namespace DemoP.Apres
     {
         void Ajouter(Client client)
         {
+            //Db.Clients.Add(client);
+            //Db.SaveAndChange();
             //Ajouter Base de donnée
         }
 

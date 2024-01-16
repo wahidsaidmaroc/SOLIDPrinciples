@@ -3,10 +3,10 @@
 public class Notification
 {
     
-    private IMessage _message;
+    private IMessage _serveur;
     //Injection With Constructor
-    public Notification(IMessage message) { _message = message; }
-    public void Envoyer() => _message.Envoyer();
+    public Notification(IMessage serveur) { _serveur = serveur; }
+    public void Envoyer() => _serveur.Envoyer();
 
 
 }

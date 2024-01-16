@@ -10,6 +10,7 @@ namespace DemoL.Exemple2.Avant
     {
         public void CreationPublicationTypeMention(string text)
         {
+            //Save To  PublicationTypeMention
             Console.WriteLine("Mention : " + text);
         }
     }

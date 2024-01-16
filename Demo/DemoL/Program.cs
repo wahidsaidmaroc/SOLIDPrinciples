@@ -1,5 +1,7 @@
-﻿//Exemple 2 : 
-//Probleme 
+﻿
+
+#region "Exemple 2"
+ //:Probleme 
 
 using DemoL.Exemple2.Avant;
 
@@ -13,15 +15,39 @@ Publication publication;
 foreach (var item in ListCommentaire)
 {
 
-	if (item.StartsWith("#"))
-	{
+    if (item.StartsWith("#"))
+    {
         publication = new PublicationTypeTag();
-    }else if (item.StartsWith("@"))
+        
+    }
+    else if (item.StartsWith("@"))
     {
         publication = new PublicationTypeMention();
     }
     else
-    { publication = new Publication();}
+    {
+        publication = new Publication();
+    }
 
     publication.Creation(item);
 }
+
+#endregion
+
+
+
+#region "3"
+
+
+using DemoL.Exemple3.Probleme;
+
+Animal lion = new Lion();
+
+lion.Speed();
+
+
+
+#endregion
+
+
+Console.ReadKey();

@@ -15,23 +15,23 @@ public class Client
     public string Nom { get; set; } = string.Empty;
     public string Adresse { get; set; } = string.Empty;
     public string Ville { get; set; } = string.Empty;
-    void Ajouter()
+    public void Ajouter()
     {
         //
     }
-    void ClientToXML()
+    public void ClientToXML()
     {
         //
     }
-    void EnvoyerMail()
+    public void EnvoyerMail()
     {
         //
     }
-    void Modifier()
+    public void Modifier()
     {
         //
     }
-    void Supprimer()
+    public void Supprimer()
     {
         //
     }

@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿DemoP.Avant.Client client = new DemoP.Avant.Client
+{ Id = 1, Adresse = "Adresse Client" };
+
+client.Ajouter

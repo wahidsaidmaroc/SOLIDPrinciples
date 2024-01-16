@@ -10,6 +10,7 @@ namespace DemoL.Exemple2.Avant
     {
         public  void CreationPublicationTypeTag(string text)
         {
+            //save type tag
             Console.WriteLine("Tag : " + text);
         }
     }

@@ -3,6 +3,7 @@
 
 //Exemple 2 : 
 DemoD.Exemple2.Avant.Notification notification = new DemoD.Exemple2.Avant.Notification();
+
 notification.EnvoyerGMail();
 notification.EnvoyerOutlook();
 //Supposons on veux ajouter un  autre type notification webmail ....Hotmail.....
@@ -10,7 +11,7 @@ notification.EnvoyerOutlook();
 
 //Solution  1 
 //Injection With Constructor
-var notificationS = new DemoD.Exemple2.Solution.Notification(new DemoD.Exemple2.Solution.GMail());
+var notificationS = new DemoD.Exemple2.Solution.Notification(new DemoD.Exemple2.Solution.Outlook());
 notificationS.Envoyer();
 
 

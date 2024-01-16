@@ -1,6 +1,6 @@
 ﻿
 
-namespace DemoD.Exemple2.Solution.Avant
+namespace DemoD.Exemple2.Solution
 {
     public class Outlook : IMessage
     {
