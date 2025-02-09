@@ -2,16 +2,20 @@
 
 
 //Exemple 2 : 
-DemoD.Exemple2.Avant.Notification notification = new DemoD.Exemple2.Avant.Notification();
+
+
+var notification = new DemoD.Exemple2.Avant.Notification();
+
 
 notification.EnvoyerGMail();
 notification.EnvoyerOutlook();
+notification.EnvoyerJobInTechSMTP();
 //Supposons on veux ajouter un  autre type notification webmail ....Hotmail.....
 
 
 //Solution  1 
 //Injection With Constructor
-var notificationS = new DemoD.Exemple2.Solution.Notification(new DemoD.Exemple2.Solution.Outlook());
+var notificationS = new DemoD.Exemple2.Solution.Notification(new DemoD.Exemple2.Solution.GMail());
 notificationS.Envoyer();
 
 

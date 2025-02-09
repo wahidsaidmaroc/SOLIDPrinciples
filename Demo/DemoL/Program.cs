@@ -4,6 +4,7 @@
  //:Probleme 
 
 using DemoL.Exemple2.Avant;
+using DemoL.Exemple4.Probleme;
 
 List<string> ListCommentaire = new List<string>();
 ListCommentaire.Add("Commentaire Said WAHID");
@@ -49,5 +50,10 @@ lion.Speed();
 
 #endregion
 
+
+
+
+ObjetSaid oLine = new OLine();  
+oLine.
 
 Console.ReadKey();

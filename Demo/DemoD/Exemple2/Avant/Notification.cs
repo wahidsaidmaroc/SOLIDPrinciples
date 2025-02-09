@@ -11,10 +11,14 @@ namespace DemoD.Exemple2.Avant
         private GMail _GMail = new GMail();
         private Outlook _Outlook = new Outlook();
         private MS365 _MS365 = new MS365();
+        private JobInTechSMTP _JobInTechSMTP = new JobInTechSMTP();
+
 
         public void EnvoyerOutlook() => _Outlook.Envoyer();
         public void EnvoyerGMail() => _GMail.Envoyer();
         public void EnvoyerMS365() => _MS365.Envoyer();
+        public void EnvoyerJobInTechSMTP() => _JobInTechSMTP.Envoyer();
+
 
     }
 }

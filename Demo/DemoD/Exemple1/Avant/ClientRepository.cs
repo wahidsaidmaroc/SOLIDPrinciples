@@ -8,7 +8,10 @@ namespace DemoD.Exemple1.Avant
 {
     public class ClientRepository : IRepository
     {
-        public void Add(Client entity) => entity
+        public void Add(Client entity)
+        {
+            throw new NotImplementedException();
+        }
 
         public void Delete(Client entity)
         {

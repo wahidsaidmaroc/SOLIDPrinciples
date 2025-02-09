@@ -1,7 +1,7 @@
 ﻿
 //Une classe ClientRepository qui s'occupe de gérer la persistance d'un client
 
-namespace DemoP.Apres
+namespace DemoS.Apres
 {
     public class ClientRepository
     {
