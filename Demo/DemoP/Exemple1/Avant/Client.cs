@@ -1,5 +1,4 @@
-﻿
-namespace DemoS.Avant;
+﻿namespace DemoS.Exemple1.Avant;
 //nous avons une méthode de sauvegarde en base de données(persistance) et finalement une méthode
 //qui déclenche un process métier.La classe a donc 3 raisons d'être modifiée : 
 

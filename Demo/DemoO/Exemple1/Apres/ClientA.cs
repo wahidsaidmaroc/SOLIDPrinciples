@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoO.Apres
+namespace DemoO.Exemple1.Apres
 {
-    internal class ClientC : Client
+    internal class ClientA : Client
     {
         public override double CalculCredit()
         {
-            return 0;
+            return 10000 + Solde;
         }
     }
 }

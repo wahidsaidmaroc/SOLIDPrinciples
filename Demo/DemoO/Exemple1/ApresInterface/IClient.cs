@@ -1,4 +1,4 @@
-﻿namespace DemoO.ApresInterface;
+﻿namespace DemoO.Exemple1.ApresInterface;
 
 internal interface IClient
 {

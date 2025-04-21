@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoO.ApresInterface
+namespace DemoO.Exemple1.ApresInterface
 {
     internal class ClientA : IClient
     {

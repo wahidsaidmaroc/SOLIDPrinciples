@@ -4,17 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoO.Apres
+namespace DemoO.Exemple1.ApresInterface
 {
-    internal abstract class Client
+    internal class ClientB : IClient
     {
         public int Id { get; set; }
         public string Nom { get; set; } = string.Empty;
         public double Solde { get; set; }
-        public abstract double CalculCredit();
-        public override string ToString()
+        public double CalculCredit()
         {
-            return $"Client : {Nom} , Credit : ";
+            return 20000 + Solde;
         }
     }
 }

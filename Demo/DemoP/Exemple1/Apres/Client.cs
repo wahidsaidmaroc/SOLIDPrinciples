@@ -1,5 +1,4 @@
-﻿
-namespace DemoS.Apres;
+﻿namespace DemoS.Exemple1.Apres;
 
 
 //La classe Client de base qui reste le DTO(Data Transfert Object), 
